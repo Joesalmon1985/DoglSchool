@@ -1,0 +1,192 @@
+/*This code sets out the alignment, font, size and colour of text
+along with the background colour of text*/
+
+/*This sets the default font and background colour*/
+body {
+  font-family:"Century Gothic", Verdana, sans-serif;
+  background-color:#c4e3e8;
+  font-size:23px;
+}
+
+#image1{
+  position: relative; left: -100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#image2{
+  position: relative;
+  margin: 0px;
+  position: relative; top: -50px;
+  margin-bottom: -60px;
+}
+
+.dogl_table {
+  margin: 10px;
+}
+
+/* The non-default options used by the table are set here, including
+the border and font. */
+.dogl_table tr td{
+  font-family:"Century Gothic", Verdana, sans-serif;
+  font-size:20px;
+  border: 1px solid black;
+}
+
+/* The non-default options used by the headings in the table are set here*/
+.dogl_table th{
+  font-family:"Century Gothic", Verdana, sans-serif;
+  font-size:18px;
+  border: 1px solid black;
+  padding: 5px
+}
+
+/* The default text size in tables and it's alignment is set here*/
+td {
+	font-size:18px;
+  text-align: center;
+}
+
+/* Sets the green background colour for the personal bests in the table*/
+td.break{
+  background:#66ff66;
+}
+
+/* Sets the red background colour for the slowest times in the table*/
+td.lunch{
+  background:#ff6666;
+}
+
+/* Sets the table to have no space between borders */
+table {
+ border-collapse: collapse;
+}
+
+
+/*This sets the way the H1 formatting style is applied,
+this is the style used for the 'Open University Running Club'
+text on each page*/
+h1 {
+  color:#ff323A;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  position: relative;
+  font-weight:normal;
+  margin-left: 10px;
+  font-size:94px;
+  font-family:"Century Gothic", Verdana, sans-serif;
+}
+
+/* this sets out the style for the H2 formatting style which
+is used as a title to any article and sponsored links */
+h2 {
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+nav [aria-current=page] {
+	background-color: #990000;
+	color: #ffffff;
+  border: solid 3px black;
+}
+
+
+
+/* The non-default options used by the navigation bar un-ordered list
+are set here */
+ul.navbar
+ {
+  display: inline-flex;
+  list-style: none;
+  position: relative;
+  width:1050px;
+  margin:10px;
+  padding: 0px;
+  font-size:22px;
+  color:#b0d0d0;
+}
+
+/* The non-default options for the otherLinks list are set here */
+ul.otherLinks
+{
+  list-style: none;
+  font-size:23px;
+  padding: 0px;
+  margin: 0px;
+  position: relative; top: -20px;
+}
+
+/* The non-default options for the footer list are set here */
+ul.footer {
+  display: inline-flex;
+  list-style: none;
+  position:relative; left:100px;
+  width:1090px;
+  text-align:center;
+  font-size:20px;
+}
+
+/*The non-default options for each list item in the footer are set here*/
+li.footer {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: solid 1px grey;
+}
+
+/*Here the first item in each list is given the instruction not to create a black border*/
+li.footer:first-child {
+  border-left: none;
+}
+
+/*The non-default options for each list item in the navbar are set here*/
+li.navbar {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: solid 3px black;
+}
+
+/*Here the first item in each list is given the instruction not to create a black border*/
+li.navbar:first-child {
+  border-left: none;
+}
+
+a.newsletter {
+  justify-content: center;
+  text-decoration:none;
+  font-weight: bold;
+  color:red;
+}
+
+a.newsletter:hover {
+  color: blue;
+  background-color: inherit;
+}
+
+/*The non-default options for the hyperlinks used in the page are set here, such as the red colour*/
+a {
+  justify-content: center;
+  text-decoration:none;
+  color:red;
+}
+
+/*The behaviour of the links when hovered over by the mouse are set here*/
+a:hover {
+  text-decoration:none;
+  color:red;
+  background-color:#6C89A9;
+}
+
+/*Sets the position of the aside (the sponsored links) on each page*/
+#aside {
+  margin:0;
+  position:absolute; left:1070px; top: 150px;
+  width:680px;
+}
+
+/*Sets the position of the main body of text on each page.*/
+#sectionhome {
+  position:relative; left:12px;
+  width:1030px;
+  text-align:left;
+}
